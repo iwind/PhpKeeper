@@ -1,0 +1,16 @@
+{
+  "process": "bin/pp",
+  "args": [
+    "", "action", "-action=keeper.run"
+  ],
+  "dir": "/Users/liuxiangchao/Documents/Projects/pp/apps/meloy",
+  "env": {
+      "DOCUMENT_ROOT": "/Users/liuxiangchao/Documents/Projects/pp/apps/meloy/web",
+      "PWD": "/Users/liuxiangchao/Documents/Projects/pp/apps/meloy"
+  },
+  "count": 10,
+  "server": {
+    "task": "localhost:9981",
+    "process": "localhost:9982"
+  }
+}
